@@ -2,7 +2,36 @@ import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+export const metadata: Metadata = {
+  title: "Ebubechukwu Chiemeka | Fullstack Developer",
+  description:
+    "Hey! Welcome to my portfolio. I'm a fullstack developer showcasing different website styles and designs. If you like what you see, let's build something amazing together!",
+  openGraph: {
+    title: "Ebubechukwu Chiemeka | Fullstack Developer",
+    description:
+      "Check out my portfolio showcasing versatile website designs. Fullstack developer ready to build your next project!",
+    url: "https://portfolio-iud9918yk-ebubechukwu-chiemekas-projects.vercel.app",
+    siteName: "Ebubechukwu Chiemeka Portfolio",
+    images: [
+      {
+        url: "https://portfolio-iud9918yk-ebubechukwu-chiemekas-projects.vercel.app/projects/landing.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ebubechukwu Chiemeka | Fullstack Developer",
+    description:
+      "Hey! Check out my portfolio showcasing versatile website designs. Fullstack developer ready to build your next project!",
+    images: ["https://portfolio-iud9918yk-ebubechukwu-chiemekas-projects.vercel.app/projects/landing.png"],
+    site: "@Fatboy_Of_Web3",
+    creator: "@Fatboy_Of_Web3",
+  },
+};
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
