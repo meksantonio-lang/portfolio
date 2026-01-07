@@ -3,13 +3,13 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 export const metadata: Metadata = {
-  title: "Ebubechukwu Chiemeka | Fullstack Developer",
+  title: "Ebubechukwu Chiemeka | Fullstack & Backend Developer",
   description:
-    "Hey! Welcome to my portfolio. Feel free to check out my projects to see different styles and shades of my work. I’m a fullstack developer and an all-rounder — if you like what you see and want your website to look like one of these, hit me up.",
+    "Hey! Welcome to my portfolio. I’m Ebubechukwu Chiemeka, a fullstack developer showcasing versatile websites. If you like what you see, hit me up to build your next project!",
   openGraph: {
-    title: "Ebubechukwu Chiemeka | Fullstack Developer",
+    title: "Ebubechukwu Chiemeka | Fullstack & Backend Developer",
     description:
-      "Welcome to my portfolio! Explore different website styles, designs, and layouts that showcase my versatility as a fullstack developer. Let’s build something great together.",
+      "Explore my portfolio featuring versatile websites and designs. Fullstack developer ready to bring your ideas to life — let’s build something amazing together!",
     url: "https://portfolio-delta-three-24.vercel.app/",
     siteName: "Ebubechukwu Chiemeka Portfolio",
     images: [
@@ -25,14 +25,13 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ebubechukwu Chiemeka | Fullstack Developer",
+    title: "Ebubechukwu Chiemeka | Fullstack & Backend Developer",
     description:
-      "Check out my portfolio showcasing different website styles and designs. Fullstack developer ready to bring your ideas to life.",
+      "Hey! Check out my portfolio showcasing versatile websites and designs. Fullstack developer ready to bring your ideas to life — hit me up!",
     images: ["https://portfolio-delta-three-24.vercel.app/projects/landing.png"],
     site: "@Fatboy_Of_Web3",
     creator: "@Fatboy_Of_Web3",
   },
-};
 };
 const geistSans = Geist({
   variable: "--font-geist-sans",
