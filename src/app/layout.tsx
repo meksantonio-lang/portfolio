@@ -5,18 +5,19 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Ebubechukwu Chiemeka | Fullstack Developer",
   description:
-    "Hey! Welcome to my portfolio. I'm a fullstack developer showcasing different website styles and designs. If you like what you see, let's build something amazing together!",
+    "Hey! Welcome to my portfolio. Feel free to check out my projects to see different styles and shades of my work. I’m a fullstack developer and an all-rounder — if you like what you see and want your website to look like one of these, hit me up.",
   openGraph: {
     title: "Ebubechukwu Chiemeka | Fullstack Developer",
     description:
-      "Check out my portfolio showcasing versatile website designs. Fullstack developer ready to build your next project!",
-    url: "https://portfolio-iud9918yk-ebubechukwu-chiemekas-projects.vercel.app",
+      "Welcome to my portfolio! Explore different website styles, designs, and layouts that showcase my versatility as a fullstack developer. Let’s build something great together.",
+    url: "https://portfolio-delta-three-24.vercel.app/",
     siteName: "Ebubechukwu Chiemeka Portfolio",
     images: [
       {
-        url: "https://portfolio-iud9918yk-ebubechukwu-chiemekas-projects.vercel.app/projects/landing.png",
+        url: "https://portfolio-delta-three-24.vercel.app/projects/landing.png",
         width: 1200,
         height: 630,
+        alt: "Ebubechukwu Chiemeka Portfolio Preview",
       },
     ],
     locale: "en_US",
@@ -26,11 +27,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ebubechukwu Chiemeka | Fullstack Developer",
     description:
-      "Hey! Check out my portfolio showcasing versatile website designs. Fullstack developer ready to build your next project!",
-    images: ["https://portfolio-iud9918yk-ebubechukwu-chiemekas-projects.vercel.app/projects/landing.png"],
+      "Check out my portfolio showcasing different website styles and designs. Fullstack developer ready to bring your ideas to life.",
+    images: ["https://portfolio-delta-three-24.vercel.app/projects/landing.png"],
     site: "@Fatboy_Of_Web3",
     creator: "@Fatboy_Of_Web3",
   },
+};
 };
 const geistSans = Geist({
   variable: "--font-geist-sans",
