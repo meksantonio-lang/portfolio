@@ -13,13 +13,13 @@ export const metadata: Metadata = {
     url: "https://portfolio-delta-three-24.vercel.app/",
     siteName: "Ebubechukwu Chiemeka Portfolio",
     images: [
-      {
-        url: "https://portfolio-delta-three-24.vercel.app/projects/landing.png",
-        width: 1200,
-        height: 630,
-        alt: "Ebubechukwu Chiemeka Portfolio Preview",
-      },
-    ],
+  {
+    url: "https://portfolio-delta-three-24.vercel.app/og.png",
+    width: 1200,
+    height: 630,
+    alt: "Ebubechukwu Chiemeka Portfolio",
+  },
+],
     locale: "en_US",
     type: "website",
   },
