@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "Explore my portfolio featuring versatile websites and designs. Fullstack developer ready to bring your ideas to life — let’s build something amazing together!",
     url: "https://portfolio-delta-three-24.vercel.app/",
     siteName: "Ebubechukwu Chiemeka Portfolio",
-    images: [
+ images: [
   {
     url: "https://portfolio-delta-three-24.vercel.app/og.png",
     width: 1200,
