@@ -16,7 +16,7 @@ export default function ContactPage() {
 
       <div className="flex flex-col gap-4 max-w-md">
         <a
-          href="mailto:your-email@example.com"
+          href="mailto:meksantonio@gmail.com"
           className="bg-blue-600 hover:bg-blue-500 text-white font-semibold px-6 py-3 rounded text-center transition"
         >
           Email Me
@@ -31,7 +31,7 @@ export default function ContactPage() {
         </a>
 
         <a
-          href="https://github.com/your-username"
+          href="https://github.com/meksantonio-lang"
           target="_blank"
           className="bg-gray-800 hover:bg-gray-700 text-white font-semibold px-6 py-3 rounded text-center transition"
         >
