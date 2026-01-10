@@ -34,7 +34,7 @@ export default function Contact() {
 
         {/* LinkedIn */}
         <a
-          href="https://www.linkedin.com/in/your-linkedin-handle"
+          href="https://www.linkedin.com/in/ebubechukwu-chiemeka-6597913a4"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-400 transition-colors"
