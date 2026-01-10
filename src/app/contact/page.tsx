@@ -23,7 +23,7 @@ export default function ContactPage() {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/your-profile"
+          href="https://www.linkedin.com/in/ebubechukwu-chiemeka-6597913a4"
           target="_blank"
           className="bg-gray-800 hover:bg-gray-700 text-white font-semibold px-6 py-3 rounded text-center transition"
         >
